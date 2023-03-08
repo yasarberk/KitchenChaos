@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 55
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 103
+  controlID: 91
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -437,23 +437,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Assets/Meshes
+    - Assets/Prefabs/KitchenObjects
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Assets/Meshes
+  - Assets/Prefabs/KitchenObjects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\berk_\OneDrive\Belgeler\GitHub\Unity\KitchenChaos
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 38.200012}
-    m_SelectedIDs: 5c6e0000
-    m_LastClickedID: 28252
-    m_ExpandedIDs: 00000000b66c0000b86c0000ba6c000000ca9a3b
+    scrollPos: {x: 0, y: 22.200012}
+    m_SelectedIDs: 42700000
+    m_LastClickedID: 28738
+    m_ExpandedIDs: 00000000c66c00007c6e00001479000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -469,7 +469,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 6}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -481,7 +481,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b66c0000b86c0000ba6c0000
+    m_ExpandedIDs: 00000000c66c0000c86c0000ca6c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0afbffff
-    m_LastClickedInstanceID: -1270
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 4a700000
+    m_LastClickedInstanceID: 28746
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ec6e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 6}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -533,7 +533,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 129.6}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0afbffff
-      m_LastClickedID: -1270
-      m_ExpandedIDs: 0cfbffff
+      m_SelectedIDs: 4a700000
+      m_LastClickedID: 0
+      m_ExpandedIDs: a49effffa89effff26d7ffff66f8ffff0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -714,7 +714,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -993,9 +993,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.3120282, y: 0.9548868, z: 1.0597756}
+    m_Target: {x: -2.483393, y: 1.6811776, z: 3.5305893}
     speed: 2
-    m_Value: {x: -1.3120282, y: 0.9548868, z: 1.0597756}
+    m_Value: {x: -2.483393, y: 1.6811776, z: 3.5305893}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1041,9 +1041,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.1532503, y: 0.58333486, z: -0.11322106, w: 0.78956836}
+    m_Target: {x: -0.01646249, y: -0.79245114, z: 0.021408623, w: -0.6093413}
     speed: 2
-    m_Value: {x: 0.15325013, y: 0.58333415, z: -0.11322092, w: 0.7895674}
+    m_Value: {x: -0.016462449, y: -0.7924492, z: 0.021408569, w: -0.6093398}
   m_Size:
     m_Target: 0.6861024
     speed: 2
