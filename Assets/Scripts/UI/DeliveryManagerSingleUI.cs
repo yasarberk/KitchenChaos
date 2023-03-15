@@ -30,7 +30,8 @@ public class DeliveryManagerSingleUI : MonoBehaviour
             Transform iconTransform = Instantiate(iconTemplate, iconContainer);
             iconTransform.gameObject.SetActive(true);
             iconTransform.GetComponent<Image>().sprite = kitchenObjectSO.sprite;
-            iconTransform.GetComponent<Image>().IsActive();
+            //I do not know why but ui image component comes with automatically disabled
+            iconTransform.GetComponent<Image>().enabled = true;
         }
     }
 }
